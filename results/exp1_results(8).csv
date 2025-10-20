@@ -1,0 +1,35 @@
+contrast,effect,pvalue,n_pairs,model_id,task,subset
+mairie vs bibliotheque,0.7398569993674755,0.00025,64,camembert-base,PLL_head_local,neutral
+mairie vs hopital,5.965312402695417,0.00025,64,camembert-base,PLL_head_local,neutral
+mairie vs ecole publique,1.758987557142973,0.00025,64,camembert-base,PLL_head_local,neutral
+mairie vs poste,1.2918537221848965,0.00025,64,camembert-base,PLL_head_local,neutral
+mairie vs prefecture,1.8573467247188091,0.00025,64,camembert-base,PLL_head_local,neutral
+mairie vs gare,-1.6853284817188978,0.00025,64,camembert-base,PLL_head_local,neutral
+mairie vs mairie annexe,1.820137482136488,0.00025,64,camembert-base,PLL_head_local,neutral
+bibliotheque vs hopital,5.225455403327942,0.00025,64,camembert-base,PLL_head_local,neutral
+bibliotheque vs ecole publique,1.0191305577754974,0.00025,64,camembert-base,PLL_head_local,neutral
+bibliotheque vs poste,0.551996722817421,0.01275,64,camembert-base,PLL_head_local,neutral
+bibliotheque vs prefecture,1.1174897253513336,0.00025,64,camembert-base,PLL_head_local,neutral
+bibliotheque vs gare,-2.4251854810863733,0.00025,64,camembert-base,PLL_head_local,neutral
+bibliotheque vs mairie annexe,1.0802804827690125,0.00025,64,camembert-base,PLL_head_local,neutral
+hopital vs ecole publique,-4.2063248455524445,0.00025,64,camembert-base,PLL_head_local,neutral
+hopital vs poste,-4.673458680510521,0.00025,64,camembert-base,PLL_head_local,neutral
+hopital vs prefecture,-4.107965677976608,0.00025,64,camembert-base,PLL_head_local,neutral
+hopital vs gare,-7.650640884414315,0.00025,64,camembert-base,PLL_head_local,neutral
+hopital vs mairie annexe,-4.145174920558929,0.00025,64,camembert-base,PLL_head_local,neutral
+ecole publique vs poste,-0.4671338349580765,0.0475,64,camembert-base,PLL_head_local,neutral
+ecole publique vs prefecture,0.09835916757583618,0.67875,64,camembert-base,PLL_head_local,neutral
+ecole publique vs gare,-3.4443160388618708,0.00025,64,camembert-base,PLL_head_local,neutral
+ecole publique vs mairie annexe,0.061149924993515015,0.60275,64,camembert-base,PLL_head_local,neutral
+poste vs prefecture,0.5654930025339127,0.00025,64,camembert-base,PLL_head_local,neutral
+poste vs gare,-2.9771822039037943,0.00025,64,camembert-base,PLL_head_local,neutral
+poste vs mairie annexe,0.5282837599515915,0.00425,64,camembert-base,PLL_head_local,neutral
+prefecture vs gare,-3.542675206437707,0.00025,64,camembert-base,PLL_head_local,neutral
+prefecture vs mairie annexe,-0.03720924258232117,0.864,64,camembert-base,PLL_head_local,neutral
+gare vs mairie annexe,3.505465963855386,0.00025,64,camembert-base,PLL_head_local,neutral
+eglise vs mosquee,-5.235774219036102,0.00025,64,camembert-base,PLL_head_local,religious
+eglise vs synagogue,-5.091198958456516,0.00025,64,camembert-base,PLL_head_local,religious
+eglise vs temple,-5.626466237008572,0.00025,64,camembert-base,PLL_head_local,religious
+mosquee vs synagogue,0.14457526057958603,0.14875,64,camembert-base,PLL_head_local,religious
+mosquee vs temple,-0.39069201797246933,0.00775,64,camembert-base,PLL_head_local,religious
+synagogue vs temple,-0.5352672785520554,0.0005,64,camembert-base,PLL_head_local,religious

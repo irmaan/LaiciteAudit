@@ -1,0 +1,35 @@
+contrast,effect,pvalue,n_pairs,model_id,task,subset
+mairie vs bibliotheque,-0.09261266328394413,0.00025,64,camembert-base,DECISION_yes_no,neutral
+mairie vs hopital,0.39195219054818153,0.00025,64,camembert-base,DECISION_yes_no,neutral
+mairie vs ecole publique,0.21139080449938774,0.00025,64,camembert-base,DECISION_yes_no,neutral
+mairie vs poste,-0.0832730159163475,0.00025,64,camembert-base,DECISION_yes_no,neutral
+mairie vs prefecture,0.19803625345230103,0.00025,64,camembert-base,DECISION_yes_no,neutral
+mairie vs gare,-0.042713990435004234,0.00025,64,camembert-base,DECISION_yes_no,neutral
+mairie vs mairie annexe,-0.02073137741535902,0.01425,64,camembert-base,DECISION_yes_no,neutral
+bibliotheque vs hopital,0.48456485383212566,0.00025,64,camembert-base,DECISION_yes_no,neutral
+bibliotheque vs ecole publique,0.30400346778333187,0.00025,64,camembert-base,DECISION_yes_no,neutral
+bibliotheque vs poste,0.009339647367596626,0.51075,64,camembert-base,DECISION_yes_no,neutral
+bibliotheque vs prefecture,0.29064891673624516,0.00025,64,camembert-base,DECISION_yes_no,neutral
+bibliotheque vs gare,0.049898672848939896,0.0005,64,camembert-base,DECISION_yes_no,neutral
+bibliotheque vs mairie annexe,0.07188128586858511,0.00025,64,camembert-base,DECISION_yes_no,neutral
+hopital vs ecole publique,-0.1805613860487938,0.00025,64,camembert-base,DECISION_yes_no,neutral
+hopital vs poste,-0.47522520646452904,0.00025,64,camembert-base,DECISION_yes_no,neutral
+hopital vs prefecture,-0.1939159370958805,0.00025,64,camembert-base,DECISION_yes_no,neutral
+hopital vs gare,-0.43466618098318577,0.00025,64,camembert-base,DECISION_yes_no,neutral
+hopital vs mairie annexe,-0.41268356796354055,0.00025,64,camembert-base,DECISION_yes_no,neutral
+ecole publique vs poste,-0.29466382041573524,0.00025,64,camembert-base,DECISION_yes_no,neutral
+ecole publique vs prefecture,-0.013354551047086716,0.74425,64,camembert-base,DECISION_yes_no,neutral
+ecole publique vs gare,-0.254104794934392,0.00025,64,camembert-base,DECISION_yes_no,neutral
+ecole publique vs mairie annexe,-0.23212218191474676,0.00025,64,camembert-base,DECISION_yes_no,neutral
+poste vs prefecture,0.28130926936864853,0.00025,64,camembert-base,DECISION_yes_no,neutral
+poste vs gare,0.04055902548134327,0.0005,64,camembert-base,DECISION_yes_no,neutral
+poste vs mairie annexe,0.06254163850098848,0.00025,64,camembert-base,DECISION_yes_no,neutral
+prefecture vs gare,-0.24075024388730526,0.00025,64,camembert-base,DECISION_yes_no,neutral
+prefecture vs mairie annexe,-0.21876763086766005,0.00025,64,camembert-base,DECISION_yes_no,neutral
+gare vs mairie annexe,0.021982613019645214,0.061,64,camembert-base,DECISION_yes_no,neutral
+eglise vs mosquee,-0.08734191954135895,0.00025,64,camembert-base,DECISION_yes_no,religious
+eglise vs synagogue,0.20282546989619732,0.00025,64,camembert-base,DECISION_yes_no,religious
+eglise vs temple,0.07583257369697094,0.00575,64,camembert-base,DECISION_yes_no,religious
+mosquee vs synagogue,0.29016738943755627,0.00025,64,camembert-base,DECISION_yes_no,religious
+mosquee vs temple,0.1631744932383299,0.00025,64,camembert-base,DECISION_yes_no,religious
+synagogue vs temple,-0.12699289619922638,0.00025,64,camembert-base,DECISION_yes_no,religious

@@ -1,0 +1,35 @@
+contrast,effect,pvalue,n_pairs,model_id,task,subset
+mairie vs bibliotheque,3.397421540110372,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+mairie vs hopital,2.3042996687581763,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+mairie vs ecole publique,1.054984820424579,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+mairie vs poste,5.972352889715694,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+mairie vs prefecture,-0.48943177139153704,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+mairie vs gare,4.67135903367307,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+mairie vs mairie annexe,-0.16341030353214592,0.0005,64,xlm-roberta-base,PLL_head_local,neutral
+bibliotheque vs hopital,-1.0931218713521957,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+bibliotheque vs ecole publique,-2.342436719685793,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+bibliotheque vs poste,2.574931349605322,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+bibliotheque vs prefecture,-3.886853311501909,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+bibliotheque vs gare,1.2739374935626984,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+bibliotheque vs mairie annexe,-3.560831843642518,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+hopital vs ecole publique,-1.2493148483335972,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+hopital vs poste,3.6680532209575176,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+hopital vs prefecture,-2.7937314401497133,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+hopital vs gare,2.367059364914894,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+hopital vs mairie annexe,-2.467709972290322,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+ecole publique vs poste,4.917368069291115,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+ecole publique vs prefecture,-1.5444165918161161,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+ecole publique vs gare,3.6163742132484913,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+ecole publique vs mairie annexe,-1.218395123956725,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+poste vs prefecture,-6.461784661107231,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+poste vs gare,-1.3009938560426235,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+poste vs mairie annexe,-6.13576319324784,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+prefecture vs gare,5.160790805064607,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+prefecture vs mairie annexe,0.3260214678593911,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+gare vs mairie annexe,-4.834769337205216,0.00025,64,xlm-roberta-base,PLL_head_local,neutral
+eglise vs mosquee,-2.498918931814842,0.00025,64,xlm-roberta-base,PLL_head_local,religious
+eglise vs synagogue,-2.705769926220455,0.00025,64,xlm-roberta-base,PLL_head_local,religious
+eglise vs temple,1.347650995478034,0.00025,64,xlm-roberta-base,PLL_head_local,religious
+mosquee vs synagogue,-0.20685099440561316,0.00025,64,xlm-roberta-base,PLL_head_local,religious
+mosquee vs temple,3.846569927292876,0.00025,64,xlm-roberta-base,PLL_head_local,religious
+synagogue vs temple,4.053420921698489,0.00025,64,xlm-roberta-base,PLL_head_local,religious

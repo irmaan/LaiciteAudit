@@ -1,0 +1,35 @@
+contrast,effect,pvalue,n_pairs,model_id,task,subset
+mairie vs bibliotheque,-0.2360992431640625,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+mairie vs hopital,-0.08156331380208333,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+mairie vs ecole publique,0.1967188517252604,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+mairie vs poste,0.08701578776041667,0.003,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+mairie vs prefecture,-0.052553812662760414,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+mairie vs gare,0.24818929036458334,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+mairie vs mairie annexe,-0.2853647867838542,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+bibliotheque vs hopital,0.15453592936197916,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+bibliotheque vs ecole publique,0.43281809488932294,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+bibliotheque vs poste,0.3231150309244792,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+bibliotheque vs prefecture,0.1835454305013021,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+bibliotheque vs gare,0.4842885335286458,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+bibliotheque vs mairie annexe,-0.049265543619791664,0.25025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+hopital vs ecole publique,0.27828216552734375,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+hopital vs poste,0.1685791015625,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+hopital vs prefecture,0.029009501139322918,0.00125,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+hopital vs gare,0.3297526041666667,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+hopital vs mairie annexe,-0.20380147298177084,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+ecole publique vs poste,-0.10970306396484375,0.058,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+ecole publique vs prefecture,-0.24927266438802084,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+ecole publique vs gare,0.051470438639322914,0.09325,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+ecole publique vs mairie annexe,-0.48208363850911456,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+poste vs prefecture,-0.1395696004231771,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+poste vs gare,0.16117350260416666,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+poste vs mairie annexe,-0.3723805745442708,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+prefecture vs gare,0.30074310302734375,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+prefecture vs mairie annexe,-0.23281097412109375,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+gare vs mairie annexe,-0.5335540771484375,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,neutral
+eglise vs mosquee,0.28327306111653644,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,religious
+eglise vs synagogue,0.08917490641276042,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,religious
+eglise vs temple,0.2421544392903646,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,religious
+mosquee vs synagogue,-0.19409815470377603,0.00025,48,xlm-roberta-base,MODERATION_allow_flag,religious
+mosquee vs temple,-0.041118621826171875,0.277,48,xlm-roberta-base,MODERATION_allow_flag,religious
+synagogue vs temple,0.15297953287760416,0.00225,48,xlm-roberta-base,MODERATION_allow_flag,religious

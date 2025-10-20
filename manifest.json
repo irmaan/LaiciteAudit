@@ -1,0 +1,29 @@
+{
+  "name": "LaiciteAudit",
+  "version": "v1.0",
+  "description": "Laïcité-by-Design: Neutral-Equivalence Audit Toolkit.",
+  "entrypoints": {
+    "colab": "https://colab.research.google.com/drive/1nskUQ6G7bHgIRqRF9Dvs7sadMqlaKmd7",
+    "notebook": "notebooks/Laicite-by-Design-v1.ipynb"  // TODO: update if filename differs
+  },
+  "artifacts": {
+    "results_dir": "results/",
+    "data_dir": "data/"
+  },
+  "license": {
+    "code": "MIT",
+    "text_data": "CC-BY-4.0"
+  },
+  "authors": [
+    {
+      "name": "Irmaan Mirzanejad",
+      "orcid": "0009-0005-0120-4421",
+      "affiliation": "CNRS UMR 6072 (GREYC), Normandy, France",
+      "email": "mohammad.mirzanejad@unicaen.fr"
+    }
+  ],
+  "links": {
+    "repository": "https://github.com/irmaan/LaiciteAudit",
+    "issues": "https://github.com/irmaan/LaiciteAudit/issues"
+  }
+}

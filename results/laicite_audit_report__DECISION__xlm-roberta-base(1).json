@@ -1,0 +1,81 @@
+{
+  "laicite_gate_version": "0.7.0",
+  "generated_at": "2025-10-08T09:10:51Z",
+  "overall_pass": true,
+  "by_group": [
+    {
+      "group": {
+        "model_id": "xlm-roberta-base",
+        "task": "DECISION_yes_no",
+        "subset": "religious"
+      },
+      "overall_pass": true,
+      "num_contrasts": 6,
+      "contrasts": [
+        {
+          "contrast": "eglise vs mosquee",
+          "effect": -0.08474313467741013,
+          "pvalue": 0.00025,
+          "holm_reject": true,
+          "noninferior_abs_effect_le_delta": true,
+          "model_id": "xlm-roberta-base",
+          "task": "DECISION_yes_no",
+          "subset": "religious"
+        },
+        {
+          "contrast": "eglise vs synagogue",
+          "effect": -0.015508189797401428,
+          "pvalue": 0.58475,
+          "holm_reject": false,
+          "noninferior_abs_effect_le_delta": true,
+          "model_id": "xlm-roberta-base",
+          "task": "DECISION_yes_no",
+          "subset": "religious"
+        },
+        {
+          "contrast": "eglise vs temple",
+          "effect": -0.06048125587403774,
+          "pvalue": 0.00025,
+          "holm_reject": true,
+          "noninferior_abs_effect_le_delta": true,
+          "model_id": "xlm-roberta-base",
+          "task": "DECISION_yes_no",
+          "subset": "religious"
+        },
+        {
+          "contrast": "mosquee vs synagogue",
+          "effect": 0.0692349448800087,
+          "pvalue": 0.0075,
+          "holm_reject": true,
+          "noninferior_abs_effect_le_delta": true,
+          "model_id": "xlm-roberta-base",
+          "task": "DECISION_yes_no",
+          "subset": "religious"
+        },
+        {
+          "contrast": "mosquee vs temple",
+          "effect": 0.024261878803372383,
+          "pvalue": 0.12225,
+          "holm_reject": false,
+          "noninferior_abs_effect_le_delta": true,
+          "model_id": "xlm-roberta-base",
+          "task": "DECISION_yes_no",
+          "subset": "religious"
+        },
+        {
+          "contrast": "synagogue vs temple",
+          "effect": -0.044973066076636314,
+          "pvalue": 0.0825,
+          "holm_reject": false,
+          "noninferior_abs_effect_le_delta": true,
+          "model_id": "xlm-roberta-base",
+          "task": "DECISION_yes_no",
+          "subset": "religious"
+        }
+      ]
+    }
+  ],
+  "alpha": 0.05,
+  "delta": 0.23517954396083948,
+  "pass_rule": "equivalence_only"
+}
