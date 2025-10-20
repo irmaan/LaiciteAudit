@@ -21,6 +21,19 @@ It operationalizes laïcité by:
 
 Core finding (v1.0): CamemBERT-base passes LANGUAGE and DECISION gates; XLM-R fails LANGUAGE but passes DECISION/MODERATION/ROUTING—indicating **governance drift** across model families/versions.
 
+
+[![DOI](https://zenodo.org/badge/1074967701.svg)](https://doi.org/10.5281/zenodo.17401723)
+
+## How to cite
+If you use this toolkit, please cite the archived software release:
+
+> Irmaan Mirzanejad (2025). *Laïcité-by-Design: Reproducible Neutral-Equivalence Audit (software)*, v1.0.0. Zenodo. https://doi.org/10.5281/zenodo.17401722
+
+For the latest version, use the concept DOI: https://doi.org/10.5281/zenodo.17401723
+
+Source code: https://github.com/irmaan/LaiciteAudit
+
+
 ---
 
 ## Quick start

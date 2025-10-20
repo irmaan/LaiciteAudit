@@ -1,0 +1,30 @@
+{
+  "title": "Laïcité-by-Design: Reproducible Neutral-Equivalence Audit (software)",
+  "upload_type": "software",
+  "description": "A reproducible audit toolkit assessing laïcité (religious neutrality) in French-language AI models and administrative decision systems.",
+  "creators": [
+    {
+      "name": "Mirzanejad, Irmaan",
+      "affiliation": "CNRS UMR 6072 (GREYC), Normandy, France",
+      "orcid": "0009-0005-0120-4421"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["laïcité", "religious neutrality", "French", "audit", "public administration", "AI"],
+  "version": "v1.0.0",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/irmaan/LaiciteAudit",
+      "scheme": "url"
+    },
+    {
+      "relation": "isAlternateIdentifier",
+      "identifier": "10.5281/zenodo.17401723",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ],
+  "language": "eng",
+  "notes": "Code: MIT (LICENSE). Text/data: CC BY 4.0 (LICENSE-CC-BY-4.0)."
+}
